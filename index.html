@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Your Mind</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js" integrity="sha512-Gk+uNk8NWN235mIkS6B7/424TsDuPDaoAsUekJCKTWLKP6wlaPv+PBGfO7dbvZeibVPGW+mYidz0vL0XaWwz4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel='stylesheet' />
+</head>
+<body>
+
+    <header>
+      <svg id="hero"></svg>
+      <div>
+        <h1>Free Your Mind</h1>
+        <p>Arnhem / Netherlands</p>
+        <p>20 July 2021</p>
+      </div>
+    </header>
+
+    <section id="intro">
+      <div>
+        <svg id="icon-kick" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="48"></circle>
+          <circle cx="50" cy="50" r="0"></circle>
+        </svg>
+        <svg id="icon-equalizer" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="48"></circle>
+          <line x1="38" y1="46" x2="38" y2="64"></line>
+          <line x1="44" y1="46" x2="44" y2="64"></line>
+          <line x1="50" y1="46" x2="50" y2="64"></line>
+          <line x1="56" y1="46" x2="56" y2="64"></line>
+          <line x1="62" y1="46" x2="62" y2="64"></line>
+        </svg>
+        <svg id="icon-knob" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="48"></circle>
+          <line x1="50" y1="2" x2="50" y2="30"></line>
+        </svg>
+      </div>
+      <p>48 hours of pure EDM magic</p>
+      <a href="tickets.html" class="button">get tickets</a>
+    </section>
+
+    <section id="lineup">
+      <h2>2021 Lineup</h2>
+      <img src="media/edm.jpg" alt="Party Lights">
+      <ul>
+        <li>Nina Kraviz</li>
+        <li>Speedy J</li>
+        <li>AnD LIVE</li>
+        <li>ANOTR</li>
+        <li>Ben Buitendijk</li>
+        <li>Boris Ross</li>
+        <li>Dax J</li>
+        <li>Deniro</li>
+        <li>Headstrong</li>
+        <li>Randomer &amp; Clouds</li>
+        <li>Karim Soliman</li>
+        <li>Michel de Hey</li>
+        <li>Benny Rodrigues</li>
+        <li>MPIA3</li>
+        <li>Paula Temple</li>
+        <li>Rebekah</li>
+        <li>Andrea Giordani</li>
+        <li>Remco Beekwilder</li>
+        <li>Rowen Clark</li>
+        <li>Stranger</li>
+        <li>Andreas Barth</li>
+        <li>Roel Funcken</li>
+        <li>Machine Run</li>
+        <li>Emil Berliner</li>
+        <li>12th Planet</li>
+        <li>Ray Kajioka</li>
+        <li>Analog</li>
+        <li>Anja Schneider</li>
+        <li>YÅ</li>
+        <li>Ida Engberg</li>
+        <li>chekov</li>
+        <li>Klangkuenstler</li>
+        <li>Remy Unger</li>
+        <li>André Winter</li>
+        <li>Nikita Zabelin</li>
+        <li>Inga Mauer</li>
+    </ul>
+
+    </section>
+
+    <section id="map">
+
+    </section>
+
+    <footer>
+      <ul id="social">
+        <li><a href="#"><svg class="icon facebook"><use href="media/social-icons.svg#facebook"></use></svg></a></li>
+        <li><a href="#"><svg class="icon instagram"><use href="media/social-icons.svg#instagram"></use></svg></a></li>
+        <li><a href="#"><svg class="icon youtube"><use href="media/social-icons.svg#youtube"></use></svg></a></li>
+  
+        <li><a href="#"><svg class="icon twitter"><use href="media/social-icons.svg#twitter"></use></svg></a></li>
+      </ul>
+  
+      <p>Design and code by <a href="https://www.praguecityuniversity.cz/">Prague City College</a></p>
+      </footer>
+
+    <script src="hero.js"></script>
+    <script src="lineup.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>
