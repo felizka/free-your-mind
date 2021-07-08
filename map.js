@@ -14,7 +14,7 @@
 
     let marker = document.createElement('div');
     marker.id = 'marker';
-    marker.innerHTML = '<img src = "/media/placeholder.png">';
+    marker.innerHTML = '<img src ="/media/placeholder.png">';
 
     let mapMarker = new mapboxgl.Marker(marker);
     mapMarker.setLngLat([5.8155693119213385, 51.93615768914052]);
